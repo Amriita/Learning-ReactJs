@@ -42,3 +42,11 @@ Tree shaking is process of removing the unwanted code that we do not use while d
 ** Consider Parcel if you want a fast and easy to use bundler for your web application.
 ** Consider webpack if you want a bundler that can bundle your JavaScript files for usage in a browser
 
+# bable: It convert the JSX code into a javascript code ( React )
+Parcel is a manager of bable
+
+# Benefits of JSX: 
+JSX enables React to display error and warning messages, which aids in debugging. With JSX, you can write large pieces of code in a more organized and simplified manner.
+
+
+

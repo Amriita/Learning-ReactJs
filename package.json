@@ -1,0 +1,39 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "Learning ReactJs basics",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amriita/Learning-ReactJs.git"
+  },
+  "keywords": [
+    "ReactJs",
+    "Javascript"
+  ],
+  "author": "Amrita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amriita/Learning-ReactJs/issues"
+  },
+  "homepage": "https://github.com/Amriita/Learning-ReactJs#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "npx": "^10.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserList": [
+    "Last 2 Chrome version",
+    "Last 2 Firefox version",
+    "QQ Browser",
+    "UC Browser",
+    "Safari For IOS"
+  ]
+}

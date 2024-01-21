@@ -49,4 +49,21 @@ Parcel is a manager of bable
 JSX enables React to display error and warning messages, which aids in debugging. With JSX, you can write large pieces of code in a more organized and simplified manner.
 
 
+## FoodApp Structure
+/**
+ * *Header
+ *    -logo
+ *    -nav Item
+ *
+ * * Body
+ *   - Search
+ *   - Restaurant Container
+ *        - Restro Card
+ *
+ * * Footer
+ *   - Copyright
+ *   - links
+ *   - Address
+ *   - contact
+ */
 

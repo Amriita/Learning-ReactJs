@@ -67,3 +67,16 @@ JSX enables React to display error and warning messages, which aids in debugging
  *   - contact
  */
 
+# React Hooks
+  - state Variable - HAve some superPowerful variables.
+  - whenever a state variable update React renders the components
+
+# Reconcilaion Algorithm  -- A high level description of react's Reconcilation.
+  - Called as React fiber ( REact 16 )
+
+Virtual Dom -- It is a Representation of Actual Dom.
+
+DivAlgo -- Its find out the difference between old vs New virtual Dom.
+
+
+

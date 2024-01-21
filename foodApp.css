@@ -4,13 +4,13 @@
     border: 1px solid black
 }
 
+.logo {
+    width: 100px;
+}
+
 .company-Name {
     margin-top: 60px;
     color: rgb(23, 13, 215)
-}
-
-.logo {
-    width: 200px;
 }
 
 .nav-item {
@@ -50,4 +50,9 @@
 
 .res-logo {
     width: 100%;
+}
+
+.filter-btn {
+    margin: 10px;
+    cursor: pointer;
 }

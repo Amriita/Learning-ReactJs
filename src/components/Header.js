@@ -1,7 +1,14 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Header = () => {
   const [btnNameReact, setBtnNameReact] = useState("Login");
+
+  // * when every componenent re-render => useeffect also called.
+  // * If dependency array is empty = [] => useefferc called on initial render only ( onlu once)
+  // * If depenndency array contain any dependency = [btnNameReact] => it called everytime when btnName chnaged or re-render
+  useEffect(() => {
+    console.log("UseEfferct Called");
+  }, [btnNameReact]);
 
   return (
     <div className="header">

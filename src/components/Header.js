@@ -1,7 +1,15 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [btnNameReact, setBtnNameReact] = useState("Login");
+
+  // * when every componenent re-render => useeffect also called.
+  // * If dependency array is empty = [] => useefferc called on initial render only ( onlu once)
+  // * If depenndency array contain any dependency = [btnNameReact] => it called everytime when btnName chnaged or re-render
+  useEffect(() => {
+    console.log("UseEfferct Called");
+  }, [btnNameReact]);
 
   return (
     <div className="header">
@@ -11,9 +19,15 @@ const Header = () => {
       <h1 className="company-Name">Food Shala</h1>
       <div className="nav-item">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
           <li>Cart</li>
           <button
             className="login"

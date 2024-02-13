@@ -79,4 +79,9 @@ Virtual Dom -- It is a Representation of Actual Dom.
 DivAlgo -- Its find out the difference between old vs New virtual Dom.
 
 
+# 2 types of Routing
+1. client side routing : use Link from react-router-dom (library)
+2. Server side Routing : use anchor tag
+
+
 

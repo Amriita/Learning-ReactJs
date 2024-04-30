@@ -55,3 +55,8 @@ button:hover {
     margin: 10px 20px 0 0;
     cursor: pointer;
 }
+
+.user-card {
+    padding: 10px;
+    border: 1px solid black;
+}
